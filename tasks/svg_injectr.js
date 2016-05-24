@@ -27,8 +27,7 @@ module.exports = function(grunt) {
       options.source = src
 
       svgInject(options, function(res){
-        var dest = path.join(f.dest, src);
-        grunt.file.write(dest, res);
+        grunt.file.write(f.dest, res);
         return done()
       })
 

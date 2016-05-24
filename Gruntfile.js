@@ -19,11 +19,14 @@ module.exports = function(grunt) {
       test_1: {
         options: {
           selector:'svg_load',
+          cwd: 'example/',
           removeAttr:true
         },
         files: [
           {
-            src:  'example/*.html',
+            expand: true,
+            cwd: 'example/',
+            src:  ['*.html', '**/*.html'],
             dest: 'dest/'
           }
         ]
