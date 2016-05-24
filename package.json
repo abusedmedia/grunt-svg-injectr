@@ -1,6 +1,6 @@
 {
   "name": "grunt-svg-injectr",
-  "description": "The best Grunt plugin ever.",
+  "description": "Inject svg source into html source",
   "version": "0.1.2",
   "homepage": "https://github.com/abused/grunt-svg-injectr",
   "author": {
@@ -21,7 +21,7 @@
     }
   ],
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 4.0.0"
   },
   "scripts": {
     "tag": "npm version patch && git push --tags"
