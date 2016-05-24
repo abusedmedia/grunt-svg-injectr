@@ -18,11 +18,12 @@ module.exports = function(grunt) {
     svg_injectr: {
       test_1: {
         options: {
-          selector:'svg_load'
+          selector:'svg_load',
+          removeAttr:true
         },
         files: [
           {
-            src:  'test/*.html',
+            src:  'example/*.html',
             dest: 'dest/'
           }
         ]
