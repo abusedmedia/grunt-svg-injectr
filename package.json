@@ -1,7 +1,7 @@
 {
   "name": "grunt-svg-injectr",
   "description": "Inject svg source into html source",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/abused/grunt-svg-injectr",
   "author": {
     "name": "abusedmedia",
